@@ -17,6 +17,43 @@
 }
 
 
+.youtubevid {
+	position : absolute;
+	height: 60vh;
+	width: 30vw;
+	top : 20vh;
+	left : 35vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items: stretch;
+}
+
+.frame {
+	height: inherit;
+	width:inherit;
+}
+
+.catchy {
+	font-weight: bold;
+	color : white;
+	font-weight:300;
+}
+
+.IbodyHeading {
+	position: relative;
+	left : 0;
+	height : 10vh;
+	width : 80vw;
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+	margin-top: 5vh;
+	
+}
+
+
 /* Autohide navbar */
 .slideUp { top:-100px; }
 .headroom { -webkit-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; -o-transition: all 0.4s ease-out; transition: all 0.4s ease-out; }
